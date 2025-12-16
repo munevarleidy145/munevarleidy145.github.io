@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "DaughterOfFortune";
+    src: url("../fuentes/Daughter\ of\ Fortune.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MegantZ";
+    src: url("../fuentes/Meganté-Personal-Use.ttf") format("opentype");
+}
+
+
+
+:root{
+    --color-beige:#FFF0DD;
+    --color-rojo:#4E1112;
+    --color-verde: #214723;
+    --color-amarillo:#D0860F;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--color-beige);
+}
+
+.navbar{
+ background: black;
+ padding: 1em;
+}
+
+
+.logo img{
+    width: 250px;
+    height: auto;
+    margin-left: 1em;
+}
+
+.navbar .nav-link {
+    font-family: "MegantZ";
+    font-size: 22px;
+    color: white;
+
+}
+
+
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+
+
+.parayou{
+    font-family: "MegantZ";
+    color: var(--color-rojo);
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+.unito{
+    width: 450px;
+    border-radius: 38px;
+    background: var(--color-verde);
+    font-size: "MegantZ";
+}
+
+
+.dosito{
+    width: 450px;
+    border-radius: 38px;
+    background: var(--color-amarillo);
+    font-size: "MegantZ";
+}
+
+
+.trecito{
+    width: 450px;
+    border-radius: 38px;
+    background: var(--color-rojo);
+    font-size: "MegantZ";
+}
+
+.cuatrito{
+    width: 450px;
+    border-radius: 38px;
+    background: var(--color-amarillo);
+    font-size: "MegantZ";
+}
+
+.cinquito{
+    width: 450px;
+    border-radius: 38px;
+    background: var(--color-rojo);
+    font-size: "MegantZ";
+}
+
+
+.seicito{
+    width: 450px;
+    border-radius: 38px;
+    background: var(--color-verde);
+    font-size: "MegantZ";
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .unito, .dosito, .trecito, .cuatrito,  .cinquito, .seicito {
+        width: 400px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .unito, .dosito, .trecito, .cuatrito,  .cinquito, .seicito {
+        width: 350px;
+    }
+}
+
+.card{
+    font-family: "MegantZ";
+    color: var(--color-beige);
+}
+
+h3{
+   font-family: "DaughterOfFortune";
+   color: var(--color-beige);  
+   font-size: 3em;
+   text-align: center;
+}
+
+h4{
+    font-size: 4em;
+}
+
+h5{
+    font-family: "MegantZ";
+}
+
+h6{
+    font-size: 2em;
+}
+
+small{
+    font-family: "DaughterOfFortune" ;
+    font-size: 1.1em;
+    color: var(--color-amarillo);
+}
+
+.iniciopar{
+    justify-content: center;
+}
+
+.queso{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.textos{
+    text-align: start;
+}
+
+
+@media (min-width: 567px) and (max-width: 768px) {
+    .textos {
+     text-align: center;
+     
+    }
+}
+
+
+.menu{
+    font-family: "MegantZ";
+    color: var(--color-rojo);
+}
+
+
+.queso img{
+    border-radius: 38px;
+    width: 450px;
+}
+
+
+
+.card img{
+    border-radius: 38px 38px 0 0 ;
+}
+
+
+.mision{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+.vision img{
+    border-radius: 38px;
+    width: 420px;
+}
+
+
+
+footer{
+    margin-top: 40px;
+    padding: 32px 0;
+    background: var(--color-amarillo);
+    text-align: center;
+    color: var(--color-verde) ;
+}
+
+

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "DaughterOfFortune";
+    src: url("../fuentes/Daughter\ of\ Fortune.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MegantZ";
+    src: url("../fuentes/Meganté-Personal-Use.ttf") format("opentype");
+}
+
+
+
+:root{
+    --color-beige:#FFF0DD;
+    --color-verde: #214723;
+    --color-amarillo:#D0860F;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--color-beige);
+}
+
+
+.navbar{
+ background: black;
+ padding: 1em;
+}
+
+
+.logo img{
+    width: 250px;
+    height: auto;
+    margin-left: 1em;
+}
+
+.navbar .nav-link {
+    font-family: "MegantZ";
+    font-size: 22px;
+    color: white;
+
+}
+
+
+
+.galeria {
+    background: var(--color-amarillo);
+    font-family: "DaughterOfFortune";
+}
+
+h1{
+    font-size: 6em;
+   text-align: center;
+   color: var(--color-beige);
+}
+
+h4{
+    font-family: "MegantZ";
+    text-align: center;
+}
+
+
+#imag{
+    width: 400px;
+    border-radius: 38px;
+}
+
+
+.love{
+    background: var(--color-verde);
+    font-size: 0.5em;
+    font-family: "DaughterOfFortune";
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #imag {
+    width: 350px;
+      
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #imag {
+    width: 450px;
+      
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #imag {
+    width: 350px;
+      
+    }
+}
+
+
+footer{
+    margin-top: 40px;
+    padding: 32px 0;
+    background: var(--color-amarillo);
+    text-align: center;
+    color: var(--color-verde) ;
+}
+

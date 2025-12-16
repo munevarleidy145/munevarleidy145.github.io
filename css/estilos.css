@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "DaughterOfFortune";
+    src: url("../fuentes/Daughter\ of\ Fortune.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MegantZ";
+    src: url("../fuentes/Meganté-Personal-Use.ttf") format("opentype");
+}
+
+
+
+:root{
+    --color-beige:#FFF0DD;
+    --verde-negro:#4E1112;
+    --color-rojo: #214723;
+    --color-amarillo:#D0860F;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--color-beige);
+}
+
+.navbar{
+ background: black;
+ padding: 1em;
+}
+
+
+.logo img{
+    width: 250px;
+    height: auto;
+    margin-left: 1em;
+}
+
+.navbar .nav-link {
+    font-family: "MegantZ";
+    font-size: 22px;
+    color: white;
+
+}
+
+
+.nosotros{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+.uniforme img{
+    border-radius: 38px;
+    width: 500px;
+    margin-right: 2em;
+   
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .textos {
+        font-size: 1.2em;
+    }
+}
+
+
+h2{
+    font-family: "MegantZ";
+    font-size: 4em;
+    color: var(--verde-negro);
+}
+
+h4{
+    font-family: "MegantZ";
+    text-align: center;
+}
+
+
+
+
+p{
+    font-family: "MegantZ";
+    font-size: 25px;
+    color: var(--verde-negro);
+}
+
+.contenedor-rojo {
+    background-color: var(--verde-negro);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.contenedor-rojo img {
+    width: 30%;
+    height: auto;
+    border-radius: 38px;
+    margin: 0 0;
+    display: flex;
+    
+}
+
+
+
+.vision img{
+    border-radius: 38px;
+    width: 500px;
+
+}
+
+
+footer{
+    margin-top: 40px;
+    padding: 32px 0;
+    background: var(--color-amarillo);
+    text-align: center;
+    color: var(--color-rojo);
+}
+
+
+
+
