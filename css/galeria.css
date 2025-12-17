@@ -87,7 +87,7 @@ h4{
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 990px) {
     #imag {
     width: 450px;
       
@@ -110,4 +110,5 @@ footer{
     text-align: center;
     color: var(--color-verde) ;
 }
+
 
